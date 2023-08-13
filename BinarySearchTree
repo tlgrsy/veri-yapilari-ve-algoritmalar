@@ -1,0 +1,21 @@
+
+
+Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] 
+
+Root ilk eleman olan "7" olarak atanmıştır. Sağında ondan büyük olan değerler, solunda ise küçük olan değerler sıralanmıştır.
+
+      7
+     / \
+    5   8
+   /     \
+  1       9
+   \      
+    3     
+     \
+      4
+       \
+        6
+         \
+          2
+
+
