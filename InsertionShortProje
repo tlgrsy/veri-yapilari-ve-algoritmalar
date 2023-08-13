@@ -1,0 +1,25 @@
+Patika Academy - Insertion Short Projesi - Dersi
+
+Dizi: [22, 27, 16, 2, 18, 6]
+
+1 Adım: [22] [27, 16, 2, 18, 6] 
+2 Adım: [22, 27] [16, 2, 18, 6]
+3 Adım: [16, 22, 27] [2, 18, 6] 
+4 Adım: [2, 16, 22, 27] [18, 6]
+5 Adım: [2, 16, 18, 22, 27] [6]
+6 Adım: [2, 6, 16, 18, 22, 27] 
+
+Insertion Sort Big-O Gösterimi:
+Insertion Sort'un en iyi, ortalama ve en kötü durum zaman karmaşıklığı O(n^2)’dir.
+
+Time Complexity:
+Dizi sıralandıktan sonra 18 sayısı en kötü durum (worst case) zaman karmaşıklığına (O(n^2)) girer.
+
+
+[7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Selection Sort'a göre ilk 4 adımı:
+Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+Adım: [2, 3, 5, 8, 7, 9, 4, 15, 6] (En küçük eleman olan 2, dizinin başındaki 7 ile yer değiştirir)
+Adım: [2, 3, 5, 8, 7, 9, 4, 15, 6] (Dizinin ikinci en küçük elemanı 3, zaten doğru yerinde olduğu için değişiklik olmaz) 
+Adım: [2, 3, 4, 8, 7, 9, 5, 15, 6] (Dizinin üçüncü en küçük elemanı 4, doğru konumuna taşınır) 
+Adım: [2, 3, 4, 5, 7, 9, 8, 15, 6] (Dizinin dördüncü en küçük elemanı 5, doğru konumuna taşınır) 
